@@ -46,6 +46,7 @@ nav{
     justify-content: space-between;
     align-items: center;
     margin: 0 auto;
+    padding: 16px 0;
 }
 
 .btn{
@@ -60,4 +61,29 @@ font-weight: bold;
 button{
     font-family: inherit;
     font-size: inherit;
+}
+
+.menu{
+    display: flex;
+    justify-content:space-between;
+    gap: 314px;
+}
+
+#ham{
+    color: white;
+    display: none;
+}
+/* responsive codes */
+
+@media screen and (max-width:576px) {
+    .menu{display:none ;
+    }
+
+    #ham{
+        display: inline;
+    }
+
+    nav{
+        padding: 16px 20px;
+    }
 }
