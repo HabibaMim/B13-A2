@@ -1,0 +1,75 @@
+.banner{
+    background-image: url('./images/hero-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 1600px;
+    border-top: 1px solid gray;
+    padding:100px 0;
+}
+
+.circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cicon{
+    z-index: 1;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ct{
+    position: relative;
+}
+
+.htext{
+margin: 0 auto;
+text-align: center;
+padding-top: 40px;
+}
+
+.btn1{
+    padding: 12px 20px;
+    border-radius: 10000px;
+    background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+    border: none;
+}
+
+.btn2{
+    padding: 12px 20px;
+    background: transparent;
+    border: 1px solid greenyellow;
+    border-radius: 10000px;
+    color: greenyellow;
+}
+
+.new{z-index: 3;
+    position: absolute;
+    left: 57vw;
+    top: 4vw;
+    padding: 8px 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: greenyellow;
+    font-size: 18px;
+    font-weight: 600;
+border-radius: 1000px;
+box-shadow: 0px 3px 27px 0px rgba(0, 255, 136, 0.5);}
+
+@media screen and (max-width:576px) {
+    .banner{
+        background-size: cover;
+        max-width: 576px;
+        max-height: 750px;
+    }
+    .htext{
+        padding: 0 20px;
+    }
+}
+
