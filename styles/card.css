@@ -36,6 +36,8 @@ max-height: 214px;
 }
 
 @media screen and (max-width:576px) {
+
+   
     .cardholder{
         display: flex;
         flex-direction: column;
@@ -43,10 +45,16 @@ max-height: 214px;
     }
     .card{
         max-height: 500px ;
+        max-width: 576px;
+        padding: 0 20px;
+
     }
     .cardsection{
         margin: 40px 0;
     }
-    
-    
+
+    .youtube{width: 536px;
+
+    }
 }
+
