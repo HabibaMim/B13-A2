@@ -11,6 +11,7 @@
     justify-content: center;
     align-items: center;
     gap:30px;
+    margin-bottom: 200px;
 }
 
 .card{
@@ -22,7 +23,7 @@ max-height: 214px;
 .cardt{
     padding: 24px;
     text-align: left;
-    background-color:#533C72;
+    background-color:rgba(53, 17, 101, 0.4);
     border-radius: 0 0 24px 24px;
 }
 
@@ -47,13 +48,12 @@ max-height: 214px;
         max-height: 500px ;
         max-width: 576px;
         padding: 0 20px;
-
     }
     .cardsection{
-        margin: 40px 0;
+        margin-top: 40px;
     }
 
-    .youtube{width: 536px;
+    .youtube{width: 100%;
 
     }
 }

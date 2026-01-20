@@ -1,0 +1,53 @@
+.ftr{
+    background-image: url('./images/footer-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 1600px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 120px 0;
+
+}
+.logo2{
+    font-size: 72px;
+background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1),rgba(145, 0, 248, 1));
+color: transparent;
+background-clip: text;
+font-weight: bolder;
+text-align: center;
+margin: 0 auto;
+max-width: 410px;
+margin-bottom: 28px;
+
+}
+
+.ficon{
+    color: white;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    
+}
+.credit{
+    color: white;
+    font-weight: 200;
+    margin-top: 28px;
+}
+
+@media screen and (max-width:576px) {
+    .ftr{
+        background-image: url('./images/Image.png');
+        background-size: cover;
+        padding: 0px 20px;
+    }
+    .ficon{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0 100px;
+        background-position: bottom;
+    }
+.logo2{font-size: 60px;}
+}
