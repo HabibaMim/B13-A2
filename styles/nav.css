@@ -38,6 +38,20 @@ background: linear-gradient(47.64deg, rgba(247, 233, 63, 1),rgba(251, 9, 180, 1)
 color: transparent;
 background-clip: text;
 font-weight: bolder;
+
+animation: float 2s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%{
+        transform: translateY(0);
+    }
+    50%{
+        opacity: 1;
+        transform: translateY(-6px);
+    }100%{
+        transform: translateY(0);
+    }
 }
 
 nav{
